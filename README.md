@@ -1,4 +1,4 @@
-# GULP starter pack
+# GULP AZW pack
 Gulp сборка для быстрой и продуктивной верстки.-
 
 ### Описание
