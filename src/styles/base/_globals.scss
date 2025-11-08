@@ -1,0 +1,43 @@
+@use 'helpers' as *;
+
+:root {
+  --container-width: #{90vw};
+  --container-padding-x: #{rem(16)};
+
+  --color-dark-red: #a52a2a;
+  --color-yellow:#ffcc37;
+  --color-dark: #141414;
+  --color-white: #fff;
+
+  --font-family-base: 'Montserrat-Medium', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-white);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: var(--color-dark);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}

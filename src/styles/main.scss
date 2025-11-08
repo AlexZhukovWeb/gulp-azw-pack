@@ -1,0 +1,19 @@
+/* =============  Base ================= */
+@use './base/normilize';
+@use './base/globals';
+@use './base/fonts';
+@use './base/utils';
+
+/* =============  Blocks ================= */
+@use './blocks/header';
+@use './blocks/footer';
+@use './blocks/pages/first';
+
+/* =============  Ui ================= */
+@use './ui/button';
+
+/* =============  Media ================= */
+@use './base/media';
+
+/* No styles code below. Only in modules */
+/* Не пишите CSS код ниже. Только в подключаемых файлах */

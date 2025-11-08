@@ -1,0 +1,22 @@
+@use './base/helpers/' as *;
+
+.container {
+  // max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.grid {
+  --gridColumns: 1;
+
+  display: grid;
+  grid-template-columns: repeat(var(--gridColumns), 1fr);
+  gap: rem($gap);
+
+  @for $i from 2 through 12 {
+    &--#{$i} {
+      --gridColumns: #{$i};
+    }
+  }
+}

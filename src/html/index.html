@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стартовый шаблон!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body class="wrapper">
+    @@include('./blocks/header.html')
+    <main class="main">
+        <section class="first">
+            <div class="first-des">
+                <h1 class="first-des__title">Gulp сборка для верстки сайтов!?</h1>
+                <p class="first-des__text">Понятная Gulp сборка которая ускорит твою верстку в разы!</p>
+            </div>
+            <div class="first-pictures">
+                <img class="first-pictures__img first-pictures__img_right" src="../assets/images/BackgroundAlexZhukovWeb.png" alt="кратое описанип картинки" srcset="">
+            </div>
+            <div class="first-pictures first-pictures_left">
+                <img class="first-pictures__img first-pictures__img_left" src="../assets/images/BackgroundAlexZhukovWebTwo.png" alt="кратое описанип картинки" srcset="">
+            </div>
+            <div class="container">
+                <div class="first-arrows">
+                    <div class="first-arrows__wrap">
+                        <svg class="first-arrows__image">
+                            <use xlink:href="../assets/icons/icons.svg#arrow-right"></use>
+                        </svg>
+                    </div>
+                    <div class="first-arrows__wrap">
+                        <svg class="first-arrows__image">
+                            <use xlink:href="../assets/icons/icons.svg#arrow-up"></use>
+                        </svg>
+                    </div>
+                    <div class="first-arrows__wrap">
+                        <svg class="first-arrows__image">
+                            <use xlink:href="../assets/icons/icons.svg#arrow-down"></use>
+                        </svg>
+                    </div>
+                    <div class="first-arrows__wrap">
+                        <svg class="first-arrows__image">
+                            <use xlink:href="../assets/icons/icons.svg#arrow-left"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    @@include('./blocks/footer.html')
+    <script src="../js/app.js"></script>
+</body>
+</html>

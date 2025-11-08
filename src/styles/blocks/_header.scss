@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    min-height: 200px;
+    padding: 18px;
+    background-color: var(--color-dark-red);
+    &__title {
+        font-family: 'Montserrat-Bold';
+        font-size: 48px;
+        text-align: center;
+        color: #fff
+    }
+    &__text {
+        font-size: 20px;
+        text-align: center;
+        color: #fff
+    }
+}

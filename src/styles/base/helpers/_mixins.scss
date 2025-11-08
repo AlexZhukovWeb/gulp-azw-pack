@@ -1,0 +1,73 @@
+/* Helpers folder mixins  */
+@use 'sass:map';
+@use 'funcition' as *;
+@use 'variables' as *;
+
+
+@mixin font-face($font-family, $url, $weight: normal, $style: normal) {
+  @font-face {
+    font-weight: $weight;
+    font-family: '#{$font-family}';
+    font-style: $style;
+    font-display: swap;
+    src: url('#{$url}.woff2') format('woff2');
+  }
+}
+
+@mixin hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@mixin show {
+  visibility: visible;
+  opacity: 1;
+}
+
+@mixin desktop-xl () {
+    @media (max-width: 1630px) {
+		@content;
+	}
+}
+
+@mixin desktop () {
+    @media (max-width: 1440px) {
+		@content;
+	}
+}
+
+@mixin laptop () {
+    @media (max-width: 1250px) {
+		@content;
+	}
+}
+
+@mixin tablet () {
+    @media (max-width: 1050px) {
+		@content;
+	}
+}
+
+@mixin mobileL () {
+    @media (max-width: 800px) {
+		@content;
+	}
+}
+
+@mixin mobile () {
+    @media (max-width: 700px) {
+		@content;
+	}
+}
+
+@mixin mobileM () {
+    @media (max-width: 550px) {
+		@content;
+	}
+}
+
+@mixin mobileS () {
+    @media (max-width: 400px) {
+		@content;
+	}
+}
