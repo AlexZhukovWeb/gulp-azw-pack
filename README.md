@@ -23,7 +23,7 @@ Gulp сборка для быстрой и продуктивной верстк
 Скачать или клонировать **Gulp сборку**.
 
 ```bash
-git clone git@github.com:AlexZhukovWeb/gulp-azw-pack.git
+git clone https://github.com/AlexZhukovWeb/gulp-azw-pack.git
 ```
 
 ### Шаг 2
